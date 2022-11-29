@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Dado Tea Lunch Special</title>
+ </head>
+ <body>    
+     
+    <fieldset>
+        <h3> Dado Tea Lunch Special </h3>
+        <br/>
+        Monday through Friday
+        <br/>
+        11am - 3pm
+        <br/>
+        $9.95 plus tax
+        <br/>
+        <br/>
+      
+        Includes sandwich,snack and drink
+        <br/>
+        <br/>
+     
+     <form>
+        <!-- Order Info -->
+        <fieldset>
+            <legend>
+                Order Information
+            </legend>
+            <br/>
+
+            <label for="Name">Name</label>
+            <br/>
+            <input type="text" id="Name" name="Name" required/>
+            <br/>
+            <br/>
+            <label for="place">Here</label>
+            <input type="radio" name="preferredorder" id="Here"/>
+            <label for="place">To Go</label>
+            <input type="radio" name="preferredorder" id="ToGo"/>
+        </fieldset>
+        <!-- Sandwiches -->
+        <fieldset>
+            <legend>Sandwiches</legend>
+            <h3>Monday</h3>
+            <label for="name">Tomato Mozzarella</label>
+            <input type="radio" name="preferredtaste" id="tm"/>
+            <br/>
+            <label for="name">Chicken Salad</label>
+            <input type="radio" name="preferredtaste" id="cs"/>
+
+            <h3>Tuesday</h3>
+            <label for="name">Greek Salad Wrap</label>
+            <input type="radio" name="preferredtaste" id="gsw"/>
+            <br/>
+            <label for="name">Toto Wrap</label>
+            <input type="radio" name="preferredtaste" id="tw"/>
+
+            <h3>Wednesday</h3>
+            <label for="name">Red Pepper Hummus</label>
+            <input type="radio" name="preferredtaste" id="rph"/>
+            <br/>
+            <label for="name">Roasted Turkey</label>
+            <input type="radio" name="preferredtaste" id="rt"/>
+
+
+            <h3>Thursday</h3>
+            <label for="name">Carrot-Ginger Hummus Wrap</label>
+            <input type="radio" name="preferredtaste" id="ghw"/>
+            <br/>
+            <label for="name">Egg Salad</label>
+            <input type="radio" name="preferredtaste" id="es"/>
+
+            <h3>Friday</h3>
+            <label for="name">Dado Wrap</label>
+            <input type="radio" name="preferredtaste" id="dw"/>
+            <br/>
+            <label for="name">Tuna Salad</label>
+            <input type="radio" name="preferredtaste" id="ts"/>
+            <br/>
+            <hr/>
+            <br/>
+            <label for="name">Gluten free Bread</label>
+            <input type="radio" name="preferredtaste" id="tm"/>
+            <br/>
+            <br/>
+        </fieldset>
+
+        <!-- Snack -->
+
+        <fieldset>
+            <legend>Snack</legend>
+
+            <h3>Snacks</h3>
+            <label for="name">Apple</label>
+            <input type="radio" name="preferredsnack" id="apple"/>
+            <br/>
+            <label for="name">Banana</label>
+            <input type="radio" name="preferredsnack" id="banana"/>
+            <br/>
+            <label for="name">Patato Chips</label>
+            <input type="radio" name="preferredsnack" id="pchips">
+            
+        </fieldset>
+        <fieldset>
+            <legend>Drink</legend>
+            <h3>Drinks</h3>
+            <label for="Drinks">Drinks</label>
+                 <select id="Drinks" name="Drinks">
+                   <option selected="selected">Coca Cola</option>
+                   <option>Coca Cola 0.5</option>
+                   <option>Coca Cola Zero</option>
+                   <option>Coca Cola Zero 0.5</option>
+                   <option>Fanta</option>
+                   <option>Sprite</option>
+                   <option>Ice Tea Peach</option>
+                   <option>Ice Tea Lemon</option>
+                   <option>Heineken</option>
+                   <option>Corona</option>
+                 </select>
+            <hr/>
+            <input type="checkbox" id="LargeDrink" value="..." />
+            <label for="LargeDrink">Large Drink 1,5 lt (0.75$ extra)</label>
+        </fieldset>
+
+        <br/>
+        <br/>
+
+        <input type="submit" value="Place Order"/>
+        <input type="reset" value="Clear Form"/>
+
+
+
+    </fieldset>
+    </form>
+    
+
+
+    
+</body>
+</html>

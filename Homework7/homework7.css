@@ -1,0 +1,82 @@
+
+#zero {
+    width: 40rem;
+    height: 40rem;
+    border:  10px solid rgb(218, 220, 207);
+    display: inline-table;
+    box-sizing: content-box;
+    background-color: aliceblue;
+}
+
+#one {
+    width: 10rem;
+    height: 13rem;
+    border: 7px solid black;
+    box-sizing: border-box;
+    background-color: beige;
+    display: inline-block;
+    border-bottom: 14px solid black;
+}
+
+#two {
+    width: 10rem;
+    height: 15rem;
+    border: 7px solid black;
+    border-bottom: 11px;
+    border-top: 14px solid black;
+    box-sizing: border-box;
+    margin-top: -7px ;
+    background-color: beige;
+}
+
+#fourblue {
+    width: 10rem;
+    height: 15rem;
+    border: 7px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    border-top: 9px solid black;
+    background-color: blue;
+}
+
+#threered {
+    width: 30rem;
+    height: 28.3rem;
+    border: 7px solid black;
+    position:absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgb(177, 38, 4);
+    border-bottom: 9px solid black
+}
+
+#five {
+    width: 27rem;
+    height: 15rem;
+    border: 7px solid black;
+    display:inline-block;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+#six {
+    width: 3rem;
+    height: 7.5rem;
+    border: 7px solid black;
+    display: inline-block;
+    position:absolute;
+    box-sizing: border-box;
+    background-color: beige;
+    border-bottom: 10px solid black;
+    
+}
+
+#yellow {
+    width: 3rem;
+    height: 7.5rem;
+    border: 7px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: yellow;
+    border-top: 10px solid black;
+}
